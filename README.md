@@ -1,5 +1,9 @@
 # Vector DB Migration CLI Tool
 
+![License](https://img.shields.io/github/license/ai-engineer-community/vector-db-migration-cli)
+![Python](https://img.shields.io/badge/Made%20with-Python-blue)
+![CLI](https://img.shields.io/badge/CLI-Tool-green)
+
 CLI tool that exports embeddings from source DB, re-embeds if needed (with batching), maintains metadata mappings, and validates data integrity post-migration.
 
 ## Features
@@ -33,7 +37,7 @@ source:
   apiKey: "your-source-api-key"
   environment: "us-west1-gcp"
   index: "source-index"
-destination:
+Destination:
   type: "weaviate"
   apiKey: "your-destination-api-key"
   endpoint: "https://your-instance.weaviate.network"
